@@ -1,14 +1,14 @@
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
 
-import GlobalStyle from "./styles/global";
-import Routes from "./app.routes";
+import { GlobalStyles } from "./styles/global";
+import AppRoutes from "./routes/routes";
 
 function App() {
   return (
     <BrowserRouter>
-      <Routes />
-      <GlobalStyle />
+      <GlobalStyles />
+      <AppRoutes />
     </BrowserRouter>
   );
 }
