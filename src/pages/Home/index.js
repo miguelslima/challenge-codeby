@@ -54,22 +54,12 @@ export function Home() {
           <Title>Escolha uma das opções abaixo:</Title>
           <OptionList>
             <ItemList>
-              <Link
-                to={{
-                  pathname: "/cart",
-                  state: { data: dataOverTen },
-                }}
-              >
+              <Link to={"/cart"} state={{ data: dataOverTen }}>
                 Página de produtos com Frete Grátis
               </Link>
             </ItemList>
             <ItemList>
-              <Link
-                to={{
-                  pathname: "/cart",
-                  state: { data: dataUnderTen },
-                }}
-              >
+              <Link to={"/cart"} state={{ data: dataUnderTen }}>
                 Página de produtos sem Frete Grátis
               </Link>
             </ItemList>
