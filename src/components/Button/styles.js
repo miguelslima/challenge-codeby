@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
+  width: 100%;
   border-top: 2px solid #cacaca;
 `;
 
@@ -12,7 +13,7 @@ export const FullButton = styled.div`
   border-radius: 8px;
   outline: none;
   border: none;
-  width: 95%;
+  width: 90%;
   cursor: pointer;
   margin: 0.8rem auto;
 `;

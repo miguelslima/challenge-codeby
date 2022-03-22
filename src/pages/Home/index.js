@@ -23,13 +23,11 @@ export function Home() {
         const dataUnder = await responseUnder.json();
 
         setDataUnderTen(dataUnder);
-        console.log(dataUnderTen);
 
         const responseOver = await fetch("http://localhost:3333/over-ten");
         const dataOver = await responseOver.json();
 
         setDataOverTen(dataOver);
-        console.log(dataOverTen);
 
         setIsLoading(false);
       } catch (error) {
