@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+<h3 align="center">
+    <img alt="Logo" title="#logo" width="400px" src="https://cdn.shopify.com/s/files/1/0088/3579/3001/files/codeby-especialistas-em-desenvolvimento-web-e-e-commerce.png?v=1643927807">
+    <br><br>
+    <br>
+</h3>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/miguelslima/challenge-codeby?color=%2304D361">
 
-## Available Scripts
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 
-In the project directory, you can run:
+</p>
 
-### `npm start`
+# Índice
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Sobre](#sobre)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Como Usar](#como-usar)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<a id="sobre"></a>
 
-### `npm test`
+## :bookmark: Sobre
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+O <strong>Carrinho de compras da CodeBy</strong> é um teste desenvolvido pela empresa para avaliar os canditados à vaga de Front-end.<br><br>
 
-### `npm run build`
+<br><br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<a id="tecnologias-utilizadas"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## :rocket: Tecnologias Utilizadas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+O projeto foi desenvolvido utilizando as seguintes tecnologias
 
-### `npm run eject`
+- [React JS](https://pt-br.reactjs.org/) <br>
+  Foram utilizado aqui:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  - axios
+  - json-server
+  - react
+  - react-dom
+  - react-loading
+  - react-router
+  - react-router-dom
+  - react-scripts
+  - styled-components
+  - web-vitals
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<a id="como-usar"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## :fire: Como usar
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- ### **Pré-requisitos**
 
-## Learn More
+  - É **necessário** possuir o **[Node.js](https://nodejs.org/en/)** instalado na máquina
+  - Também, é **preciso** ter um gerenciador de pacotes seja o **[NPM](https://www.npmjs.com/)** ou **[Yarn](https://yarnpkg.com/)**.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Executando a Aplicação:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```sh
+  # Clone o repositório
+  $ git clone git@github.com:miguelslima/challenge-codeby.git
 
-### Code Splitting
+  # Instale as dependências
+  $ npm install ou yarn add
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+  # Inicie a aplicação mobile
+  $ cd challenge-codeby
+  $ npm start ou yarn start
+```
 
-### Analyzing the Bundle Size
+## :memo: License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
