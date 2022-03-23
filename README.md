@@ -21,7 +21,7 @@
 
 ## :bookmark: Sobre
 
-O <strong>Carrinho de compras da CodeBy</strong> é um teste desenvolvido pela empresa para avaliar os canditados à vaga de Front-end.<br><br>
+O <strong>Carrinho de compras da CodeBy</strong> é um teste desenvolvido pela empresa CodeBy para avaliar os canditados à vaga de Front-end. No teste foi disponibilizado algumas instruções para wue fosse realizado o teste, deixando a tecnoligia à vontade por parte do canditado à vaga<br><br>
 
 <br><br>
 
@@ -54,7 +54,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
   - É **necessário** possuir o **[Node.js](https://nodejs.org/en/)** instalado na máquina
   - Também, é **preciso** ter um gerenciador de pacotes seja o **[NPM](https://www.npmjs.com/)** ou **[Yarn](https://yarnpkg.com/)**.
 
-1. Executando a Aplicação:
+1. Executando a Aplicação Front-End:
 
 ```sh
   # Clone o repositório
@@ -63,9 +63,21 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
   # Instale as dependências
   $ npm install ou yarn add
 
-  # Inicie a aplicação mobile
+  # Inicie a aplicação front-end
   $ cd challenge-codeby
   $ npm start ou yarn start
+```
+
+2. Executando a Aplicação Back-End:
+
+```sh
+  # Caso não tenha instalado, para instalar o json-server
+  $ yarn add json-server
+  ou
+  $ npm install -g json-server
+
+  # Iniciando o servidor 
+  $ yarn server ou npm server
 ```
 
 ## :memo: License
