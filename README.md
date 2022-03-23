@@ -77,7 +77,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
   $ npm install -g json-server
 
   # Iniciando o servidor 
-  $ yarn server ou npm server
+  $ yarn server ou npm run server
 ```
 
 ## :memo: License
