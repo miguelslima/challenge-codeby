@@ -42,3 +42,9 @@ export const ItemList = styled.li`
     }
   }
 `;
+
+export const ErroBack = styled.h1`
+  text-align: center;
+  max-width: 70%;
+  margin-top: 40px;
+`;

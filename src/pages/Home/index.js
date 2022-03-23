@@ -8,6 +8,7 @@ import {
   Title,
   OptionList,
   ItemList,
+  ErroBack
 } from "./styles";
 import Logo from "../../assets/codeby.png";
 
@@ -15,6 +16,7 @@ export function Home() {
   const [dataUnderTen, setDataUnderTen] = useState({});
   const [dataOverTen, setDataOverTen] = useState({});
   const [isLoading, setIsLoading] = useState(true);
+  const [serverIsOff, setServerIsOff] = useState(false);
 
   useEffect(() => {
     async function fetchLists() {
@@ -32,6 +34,7 @@ export function Home() {
         setIsLoading(false);
       } catch (error) {
         console.log("error => ", error);
+        setServerIsOff(true);
       }
     }
     fetchLists();
@@ -40,7 +43,14 @@ export function Home() {
   return (
     <Container>
       <img src={Logo} alt="Logo CodeBy" />
-      {isLoading ? (
+      {serverIsOff ? (
+        <>
+          <ErroBack>
+            Verifique se seu servidor encontra-se ligado seguindo as orientações
+            correta!
+          </ErroBack>
+        </>
+      ) : isLoading ? (
         <ReactLoading
           type={"spin"}
           color={"#0090FF"}
